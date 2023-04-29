@@ -8,8 +8,6 @@ export const ContactForm = ({onSubmit}) => {
     const [name, setName] = useState('');
     const [number, setNumber] = useState('');
 
-        // const onChangeName = e => setName(e.currentTarget.value);
-        // const onChangeNumber = e => setNumber(e.currentTarget.value);
 
     const handleChange = e => {
         const { name, value } = e.currentTarget;

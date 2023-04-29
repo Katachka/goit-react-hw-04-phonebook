@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { useEffect } from 'react';
+import { useState,  useEffect  } from 'react';
 import { nanoid } from 'nanoid';
 import { Report } from 'notiflix/build/notiflix-report-aio';
 import { ContactForm} from './ContactForm/ContactForm';
@@ -10,7 +9,7 @@ import { Container,Title,Subtitle } from './App.styled';
 
 
 export const App = () => {
-  
+
   const [contacts, setContacts] = useState([]);
   const [filter, setFilter] = useState('');
   
